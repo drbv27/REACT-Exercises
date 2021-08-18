@@ -24,7 +24,7 @@ const CrudTable = ({ data, setDataToEdit, deleteData }) => {
                 key={el.id}
                 el={el}
                 setDataToEdit={setDataToEdit}
-                deleteData={[deleteData]}
+                deleteData={deleteData}
               />
             ))
           )}
